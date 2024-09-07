@@ -9,6 +9,8 @@ const config = {
     extend: {
       fontFamily: {
         barlow: ['"Barlow Semi Condensed"', "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        lucida: ['"Lucida Calligraphy"', "cursive"],
       },
     },
   },

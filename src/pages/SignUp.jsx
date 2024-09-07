@@ -2,6 +2,7 @@ import React from 'react'
 import chairImg from '../assets/chair.svg'
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
+import LogoDetails from '../components/LogoDetails';
 
 
 
@@ -37,7 +38,7 @@ export const SignUp = () => {
             </div>
             <div>
                 <img className='w-[688px] h-[1024px]' src={chairImg} alt="" />
-
+                <LogoDetails />
             </div>
         </div>
     )
